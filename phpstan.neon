@@ -1,0 +1,9 @@
+parameters:
+    paths:
+        - src
+
+    stubFiles:
+        - stubs/iterable.stub
+
+    level: max
+    checkGenericClassInNonGenericObjectType: false
