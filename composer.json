@@ -1,6 +1,7 @@
 {
     "name": "jdecool/filesystem",
     "type": "library",
+    "description": "Yet another filesystem abstraction",
     "license": "MIT",
     "authors": [
         {
