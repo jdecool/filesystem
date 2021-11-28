@@ -17,4 +17,9 @@ class File
     {
         return $this->file->getPathname();
     }
+
+    public function nameWithoutExtension(): string
+    {
+        return $this->file->getBasename(".{$this->file->getExtension()}");
+    }
 }
